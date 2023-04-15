@@ -1,0 +1,297 @@
+@font-face {
+    font-family: bitwise;
+    src: url(/fonts/bitwise.woff);
+}
+
+@font-face {
+    font-family: hackerbot;
+    src: url(/fonts/hackerbot.woff);
+}
+
+body{
+    background: url(../img/bg1.jpg) rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+cover{
+    height: 1677px;
+    top: -5px;
+    left: 0px;
+    background: url(../img/bg1.jpg) rgba(0, 0 ,0 , 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+
+.💪{
+    display: flex;
+    position: absolute;
+}
+
+.wf{
+    width: 130vw;
+}
+
+.wborder{
+    border: 3px solid white;
+}
+
+navbar{
+    /* background-color: black; */
+    height: 10%;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    /* filter: blur(1px); */
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 14px black;
+}
+
+navbar ul{
+    flex-direction: row;
+    display: flex;
+}
+
+navbar li{
+    flex-direction: row;
+    list-style: none;
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 24px;
+}
+
+navbar li img{
+  position: absolute;
+    z-index: 4;
+    height: 150px;
+    width: 150px;
+    top: -42px;
+    left: 4px;
+}
+
+navbar li a{
+    color: white;
+    font-size: 22px;
+    font-family: 'bitwise';
+    list-style: none;  
+    text-align: center;
+    text-decoration: none;
+    filter:none;
+}
+
+navbar ul li a:hover{
+  color: #ea1d6f;
+}
+
+navbar input{
+    float: right;
+    top: 14px;
+    left: 80%;
+    border-radius: 15px;
+    color: #ea1d6f;
+    background: none;
+    height: 30px;
+    width: 250px;
+    font-family: 'bitwise';
+    position: absolute;
+}
+
+navbar input::placeholder{
+    color: #ea1d6f;
+    font-size: 20px;
+    font-family: 'bitwise';
+}
+
+.🔍{
+    display: flex;
+    height: 10%;
+    width: 30%;
+    float: right;
+    left: 866px;
+    padding: 18px;
+}
+
+.box{
+    display: flex;
+    margin: 60px 20px; 
+    background:none;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+    padding: 15px 0px 50px 0px;
+    word-spacing: 15px;
+    font-family: 'bitwise';
+    color: rgb(20, 178, 28);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+    padding: 10px 0px 30px 0px;
+    word-spacing: 15px;
+    font-family: 'bitwise';
+    color: rgb(238, 255, 0);
+    font-size: 30px;
+
+
+}
+
+h2{
+    padding-left: 15px;
+    word-spacing: 12px;
+    font-family: 'bitwise';
+    color: #ea1d6f;
+    font-size: 25px;
+}
+
+.boxff{
+    padding: 15px;
+    word-spacing: 10px;
+    font-family: 'bitwise';
+    color: white;
+}
+
+.img{
+     text-align: center;
+     padding: 25px;
+     justify-content: center;
+     align-items: center;
+}
+
+.imgsm{
+    width: 60%;
+}
+
+.imgbg{
+    width: 75%;
+    height: 350px;
+}
+
+h3{
+    font-size: 30px;
+    font-family: "bitwise";
+    color: rgb(238, 255, 0);
+    padding: 5px;
+    padding-left: 40px;
+}
+
+.link li{
+    font-size: 15px;
+    font-family: "bitwise";
+    color: white;
+    padding: 3px;
+}
+.content{
+    width: 70%;
+}
+
+.tablecontents{
+    width: 30%;
+    display: flex;
+    position: fixed;
+    right: 1%;
+    top: 23%;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    background:url(../img/bg1.jpg) rgba(0, 0, 0, 0.45);
+    background-blend-mode: darken;
+    border-radius: 10px;
+    padding: 7px;
+    padding-bottom: 80px;
+    width: 140%;
+}
+
+.contents{
+    padding-left: 20px;
+    list-style: none;
+    color: white;
+}
+
+.link li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
+
+.wf {
+    width: 100vw;
+}
+
+footer{
+    background: rgba(0, 0 ,0 , 0.5);
+      box-shadow: 0px 5px 14px black;
+      color: #ea1d6f;
+      font-family: 'bitwise';
+      height: 50px;
+      font-size: 22px;
+      left: 0px;
+      justify-content: center;
+      margin-top: 411%;
+      display: flex;
+      align-items: center;
+      
+  }
+
+.nmap{
+    padding: 15px;
+    word-spacing: 10px;
+    font-family: 'bitwise';
+    color: white;
+    padding-left: 20%;
+}
+
+.boxfp{
+    padding: 8px;
+    word-spacing: 10px;
+    font-family: 'bitwise';
+    color: white;
+    padding-left: 20%;
+}
+
+.tablehead{
+    padding-left: 15px;
+    word-spacing: 12px;
+    font-family: 'bitwise';
+    color: #ea1d6f;
+    font-size: 20px;
+
+}
+
+.burger{
+     position: absolute;
+     cursor: pointer;
+     right: 3%;
+     top: 33%;
+     display: none;
+}
+
+.line{
+    width: 40px;
+    background-color: white;
+    height: 5px;
+    margin: 5px 5px;
+}
+@media only screen and (max-width:1320px){
+    .🔍{
+        position: relative;}
+    navbar{
+        flex-direction: column;
+    }
+
+    .burger{
+        display: block;
+    }
+    
+
+}

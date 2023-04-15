@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog2.css">
+    <title>OS DETECTION & SYSTEM BUGS</title>
+</head>
+
+<body class="box">
+   
+
+    <navbar class="💪 wf hnav" style="z-index: 2; position: fixed; ">
+        <li><a href="#"><img src="../img/logo.png" alt=""></a></li>
+        <ul class="vclass">
+        <li><a href="#" class="💪">Home</a></li>
+
+        <li><a href="/blog" class="💪">Blog</a></li>
+        <li><a href="#services" class="💪">Services</a></li>
+        <li><a href="#contact" class="💪">Contact Us</a></li></ul>
+        <div class="vclass"><input class="🔍 wborder" type="text" placeholder="Search.."></div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </navbar>
+    <cover class="💪 wf" style="z-index: -1; position: fixed;"></cover>
+    <div class="content">
+
+        <h1 class="title">OS DETECTION & SYSTEM BUGS</h1>
+        <h1>Using Vega To Scan Your Website</h1>
+        <section style="z-index: 1;" id="fp">
+            <div class="h2">
+                <h2>What is Vega??</h2>
+            </div>
+            <div>
+                <p class="boxff">Vega Vulnerability Scanner, a graphical web-auditing tool developed by security
+                    company
+                    Subgraph, is a free and open-source tool that can be helpful in various ways. It offers
+                    features
+                    like proxy scanning, but in this discussion, we will specifically highlight its automated
+                    security
+                    testing capability, which aids in identifying and validating vulnerabilities such as SQL
+                    injection,
+                    cross-site scripting (XSS), inadvertent disclosure of sensitive information, and many
+                    others.
+                </p>
+            </div>
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" id="sp">
+            <div class="h2">
+                <h2>Getting started with Vega</h2>
+            </div>
+            <div>
+                <p class="boxff">If you're using a newer version of Kali Linux, the Vega Vulnerability Scanner
+                    may
+                    not
+                    come preinstalled like it did on older versions. Therefore, you may need to install it
+                    separately to
+                    access its functionalities."</p>
+            </div>
+            <div>
+                <p class="boxff">In earlier iterations of Kali, which came with Vega preloaded, users could
+                    access
+                    Vega
+                    by navigating to Applications -> Web Application Analysis -> Vega. However, in the current
+                    version,
+                    you would need to manually change directory (cd) into the Vega folder and then use the ls
+                    command to
+                    view its contents.
+                </p>
+            </div>
+            <div class="img">
+                <img class="imgsm" src="../blog2img/1.png">
+            </div>
+            <div>
+                <p class="boxff">To initiate Vega, the required tool inside the designated folder, you can
+                    launch it
+                    using the "Vega" command.</p>
+            </div>
+            <div class="img">
+                <img class="imgsm" src="../blog2img/2.png">
+            </div>
+            <div>
+                <p class="boxff">If the process was successful, you should be able to view Vega's initial screen
+                    as
+                    it
+                    loads up. If it did not work, please verify that you are using the correct version of Java.
+                </p>
+            </div>
+            <div class="img">
+                <img class="imgbg" src="../blog2img/3.png">
+            </div>
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" id="tp">
+            <div class="h2">
+                <h2>Configure Vega</h2>
+            </div>
+            <div>
+                <p class="boxff">
+                    Once we launch an application for the first time, we prefer to check out the available
+                    preferences
+                    and options. To access them, I click on the "Window" menu located in the top-left corner and
+                    then
+                    select "Preferences."
+                </p>
+            </div>
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" id="fop">
+            <div class="h2">
+                <h2>How to scan a website using Vega??</h2>
+            </div>
+            <div>
+                <p class="boxff">With Vega successfully installed and configured, we are all set to begin
+                    scanning a
+                    website. To initiate the scanning process, you can either use the Control-N shortcut, click
+                    on
+                    the
+                    Start New Scan icon located in the top left corner, or select "Scan" from the menu bar and
+                    then
+                    choose "Start New Scan." Vega will then prompt you with the Select a Scan Target window,
+                    where
+                    you
+                    can enter your target URL in the designated box under "Scan Target," and click "Next.</p>
+            </div>
+            <div class="img"><img class="imgbg" src="../blog2img/4.png"></div>
+            <div>
+                <p class="boxff">Vega offers a variety of modules that are specifically designed to identify
+                    common
+                    web
+                    server vulnerabilities, including SQL injection, cross-site scripting (XSS), and XML
+                    injection
+                    vulnerabilities. To enable all of the scanner modules, you can ensure that "Injection
+                    Modules"
+                    is
+                    checked. Alternatively, if you only want to enable specific modules, you can expand the
+                    "Injection
+                    Modules" option and select the ones you want, while deselecting the ones you don't need.</p>
+            </div>
+            <div>
+                <p class="boxff">You could click "Next" a few times to adjust Authentication Options or
+                    Parameters,
+                    but
+                    we don't need to. So instead, click "Finish" to start scanning the website.</p>
+            </div>
+            <div class="img"><img class="imgbg" src="../blog2img/5.png"></div>
+            <div>
+                <p class="boxff">A scan can take anywhere from two minutes to eight hours to complete depending
+                    on
+                    the
+                    website's size.</p>
+            </div>
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" id="fip">
+            <div class="h2">
+                <h2>How to interpret Vega alerts??</h2>
+            </div>
+            <div>
+                <p class="boxff">After completing the scan, Vega will provide a summary of the alerts in a clear
+                    and
+                    concise manner. If Vega generates a "High" alert, there's no need to panic as Vega's modules
+                    can
+                    be
+                    sensitive and may occasionally produce false positive alerts for vulnerabilities that may
+                    not
+                    actually exist. False positives are not necessarily negative. However, it is recommended to
+                    thoroughly review the report and manually investigate each alert.</p>
+            </div>
+            <div class="img"><img class="imgbg" src="../blog2img/6.png"></div>
+        </section style="z-index: 1;">
+        <h1 id="nfp">Nmap Command in Linux with Example</h1>
+        <section style="z-index: 1;">
+            <div>
+                <p class="boxff">
+                    Nmap is Linux command-line tool for network exploration and security auditing. This tool is
+                    generally used by hackers and cybersecurity enthusiasts and even by network and system
+                    administrators. It is used for the following purposes:
+                </p>
+            </div>
+            <div>
+                <ul class="nmap">
+                    <li>Real time information of a network</li>
+                    <li>Detailed information of all the IPs activated on your network</li>
+                    <li> Number of ports open in a network</li>
+                    <li> Provide the list of live hosts</li>
+                    <li> Port, OS and Host scanning</li>
+                </ul>
+            </div>
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" id="nsp">
+            <div class="h2">
+                <h2>Installing Nmap Command</h2>
+            </div>
+            <div>
+                <p class="boxff">In case of Debian/Ubuntu </p>
+                <p class="boxfp">Sudo apt-get install nmap</p>
+                <p class="boxff">In case of CentOS/RedHat </p>
+                <p class="boxfp">Yum install nmap
+                </p>
+            </div>
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" id="ntp">
+            <div class="h2">
+                <h2>Working With Nmap Command</h2>
+            </div>
+            <div>
+                <p class="boxff">1. To scan a system using its hostname or IP address, use the command "nmap"
+                    followed by the hostname or IP address.</p>
+            </div>
+            <div class="img"><img src="../blog2img/n1.jpeg" class="imgsm"></div>
+            <div>
+                <p class="boxff">Now, scan using IP address.</p>
+            </div>
+            <div class="img"><img src="../blog2img/n2.jpeg" class="imgsm"></div>
+
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" class="nfop">
+            <div>
+                <p class="boxff">2. To get more detailed information about a remote computer, use the "-v" option.
+                </p>
+            </div>
+            <div class="img"><img src="../blog2img/n3.jpeg" class="imgbg"></div>
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" class="nfip">
+            <div>
+                <p class="boxff">3. To scan multiple computers at once, type their IP addresses or hostnames after
+                    "nmap".
+                </p>
+            </div>
+            <div class="img"><img src="../blog2img/n4.jpeg" class="imgbg"></div>
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" class="nsip">
+            <div>
+                <p class="boxff">4. To scan a whole range of IP addresses, use the "*" symbol.
+                </p>
+            </div>
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" class="nsep">
+            <div>
+                <p class="boxff">5. To scan a specific range of IP addresses, type the first and last IP addresses
+                    separated by a hyphen.</p>
+            </div>
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" class="nep">
+            <div>
+                <p class="boxff">To detect firewall settings, use the "-sA" option.
+                </p>
+            </div>
+            <div class="img"><img src="../blog2img/n5.jpeg" class="imgsm"></div>
+        </section style="z-index: 1;">
+        <section style="z-index: 1;" class="nnp">
+            <div>
+                <p class="boxff">To find hostnames for a given IP address, use the "-sL" option</p>
+            </div>
+            <div class="img"><img src="../blog2img/n6.jpeg" alt="" class="imgsm"></div>
+        </section style="z-index: 1;">
+    </div>
+    <div class="tablecontents">
+        <ul class="link">
+            <h3>TABLE OF CONTENTS</h3>
+            <h2 class="tablehead">Nmap Command In Linux</h2>
+            <li class="contents"><a href="#nfp">Nmap Command in Linux with Example</a></li>
+            <li class="contents"><a href="#nsp">Installing Nmap Command</a></li>
+            <li class="contents"><a href="#ntp">Working With Nmap Command</a></li>
+            <h2 class="tablehead">Using Vega To Scan Your Website</h2>
+            <li class="contents"><a href="#fp">What is Vega??</a></li>
+            <li class="contents"><a href="#sp">Getting started with Vega</a></li>
+            <li class="contents"><a href="#tp">Configure Vega</a></li>
+            <li class="contents"><a href="#fop">How to scan a website using Vega??</a></li>
+            <li class="contents"><a href="#fip">How to interpret Vega alerts??</a></li>
+        </ul>
+    </div>
+    <!-- <footer style="position: absolute;" class="wf">
+        nothing is unhackable!!
+    </footer> -->
+    <script class="wf" src="script.js"></script>
+</body>
+
+</html>
